@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OT Rehabilitation Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-gray-800 text-white p-4">
+        <h1 class="text-3xl">OT Rehabilitation Project</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#sections" class="hover:text-gray-300">Sections</a></li>
+                <li><a href="#assistive-tech" class="hover:text-gray-300">Assistive Tech</a></li>
+                <li><a href="#resources" class="hover:text-gray-300">Resources</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="p-8">
+        <section id="home" class="mb-8">
+            <h2 class="text-2xl font-bold mb-3">Welcome to the OT Rehabilitation Project</h2>
+            <p>Introduction and overview of the project...</p>
+        </section>
+
+        <section id="sections" class="mb-8">
+            <h2 class="text-2xl font-bold mb-3">Our Focus Areas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Focus Area Cards -->
+            </div>
+        </section>
+
+        <section id="assistive-tech" class="mb-8">
+            <h2 class="text-2xl font-bold mb-3">Assistive Technologies</h2>
+            <p>Details about various assistive technologies...</p>
+        </section>
+
+        <section id="resources" class="mb-8">
+            <h2 class="text-2xl font-bold mb-3">Resources</h2>
+            <p>Links to literature and additional resources...</p>
+        </section>
+
+        <section id="contact" class="mb-8">
+            <h2 class="text-2xl font-bold mb-3">Contact Us</h2>
+            <form action="/submit-form" method="post">
+                <input type="text" placeholder="Name" name="name" class="p-2 border border-gray-300">
+                <input type="email" placeholder="Email" name="email" class="p-2 border border-gray-300">
+                <textarea placeholder="Your Message" name="message" class="p-2 border border-gray-300"></textarea>
+                <button type="submit" class="bg-blue-500 text-white p-2">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        © 2024 OT Rehabilitation Project
+    </footer>
+</body>
+</html>
